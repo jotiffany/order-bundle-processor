@@ -1,8 +1,8 @@
-#Coding Challenge
+# Coding Challenge - Order Bundle Processor
+Given an order,determine the cost and bundle breakdown for each item.
 
-##Setup
-Install dependencies:
+## Install dependencies:
     `bundle install`
 
-##Unit Tests
+## Run unit tests
     `rake tests`
