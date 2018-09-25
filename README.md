@@ -5,4 +5,4 @@ Given an order,determine the cost and bundle breakdown for each item.
     `bundle install`
 
 ## Run unit tests
-    `rake tests`
+    `rake test`
