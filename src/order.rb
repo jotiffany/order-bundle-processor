@@ -30,7 +30,8 @@ class Order
     puts "ITEM TOTAL= #{sum}"
   end
 
-  def print_breakdown
+  def process_and_print
+    process
     @breakdown.each do |package|
       item = package[:item]
       puts "#{item.quantity} #{item.format.upcase}"
@@ -39,7 +40,6 @@ class Order
   end
 
   def process
-    puts @items
     @items.each do |item|
       @breakdown.push(
         item: item,

@@ -26,7 +26,6 @@ RSpec.describe Order do
 
   it 'should print breakdown' do
     order = Order.new('10 IMG 15 FLAC 13 VID')
-    order.process
-    order.print_breakdown
+    order.process_and_print
   end
 end
